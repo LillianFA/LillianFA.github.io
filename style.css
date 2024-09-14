@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(39, 162, 202);
+    font-family: Helvetica, arial, sans-serif ;
+    color: blueviolet;
+    margin: 0px;
+}
+
+form {
+    background-color: rgb(181, 223, 83);
+    margin: 0px;
+}
+
+article > header > h1 {
+    background-color: rgb(181, 223, 83);
+    margin: 0px;
+}
+
+body > main article {
+    width: 90%;
+    margin: auto;
+}
+
+body > header > nav > ul {
+    list-style: none;
+}
+
+blockquote {
+    width: 37%;
+    margin: auto;
+}
+
+body > header {
+    display: flex;
+    height: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    color: rgb(181, 223, 83);
+    margin:0px;
+    padding: 8px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 0px darkgoldenrod, -1px 1px 0px darkgoldenrod, 1px -1px 0px darkgoldenrod, -1px -1px 0px darkgoldenrod;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+}
+
+#side-bits {
+    display: flex;
+    justify-content: space-inbetween;
+
+}
